@@ -1,0 +1,31 @@
+DELETE http://localhost:8080/todo/delete/4
+Content-Type: application/json
+
+
+###
+PUT http://localhost:8080/todo/update/1
+Content-Type: application/json
+
+{
+  "title" : "코드잇",
+  "description" : "Spring & Java 백엔드 강의 "
+}
+
+###
+GET http://localhost:8080/todo/load/list
+Accept: application/json
+
+###
+POST http://localhost:8080/todo/create
+Content-Type: application/json
+
+{
+  "title": "codeit 1기",
+  "description" : "백엔드 공부중"
+}
+
+
+
+
+
+
